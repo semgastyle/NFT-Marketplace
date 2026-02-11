@@ -313,3 +313,111 @@ body {
     background-color: var(--color-dark);
     color: var(--color-caption);
 }
+
+.categories__cards-wrapper {
+    margin-top: 60px;
+}
+
+.categories__card {
+    background-color: var(--color-secondary);
+    overflow: hidden;
+}
+
+.categories__name {
+    color: var(--color-light);
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 28px;
+}
+
+.categories__photo {
+    width: 240px;
+    height: 240px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    filter: blur(15px);
+    position: relative;
+}
+
+.categories__photo::after {
+    
+}
+
+.categories__photo-wrapper {
+    overflow: hidden;
+    position: relative;
+}
+
+.categories__photo-wrapper::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+}
+
+.categories__card:nth-child(1) .categories__photo-wrapper::after {
+    content: url(img/PaintBrush.png);
+}
+
+.categories__card:nth-child(2) .categories__photo-wrapper::after {
+    content: url(img/Swatches.png);
+}
+
+.categories__card:nth-child(3) .categories__photo-wrapper::after {
+    content: url(img/MusicNotes.png);
+}
+
+.categories__card:nth-child(4) .categories__photo-wrapper::after {
+    content: url(img/Camera.png);
+}
+
+.categories__card:nth-child(5) .categories__photo-wrapper::after {
+    content: url(img/VideoCamera.png);
+}
+
+.categories__card:nth-child(6) .categories__photo-wrapper::after {
+    content: url(img/MagicWand.png);
+}
+
+.categories__card:nth-child(7) .categories__photo-wrapper::after {
+    content: url(img/Basketball.png);
+}
+
+.categories__card:nth-child(8) .categories__photo-wrapper::after {
+    content: url(img/Planet.png);
+}
+
+.categories__card:nth-child(1) .categories__photo {
+    background-image: url(img/25.png);
+}
+
+.categories__card:nth-child(2) .categories__photo {
+    background-image: url(img/32.png);
+}
+
+.categories__card:nth-child(3) .categories__photo {
+    background-image: url(img/30.png);
+}
+
+.categories__card:nth-child(4) .categories__photo {
+    background-image: url(img/31.png);
+} 
+
+.categories__card:nth-child(5) .categories__photo {
+    background-image: url(img/29.png);
+}
+
+.categories__card:nth-child(6) .categories__photo {
+    background-image: url(img/28.png);
+}
+
+.categories__card:nth-child(7) .categories__photo {
+    background-image: url(img/26.png);
+} 
+
+.categories__card:nth-child(8) .categories__photo {
+    background-image: url(img/27.png);
+}
+
